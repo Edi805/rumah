@@ -27,7 +27,7 @@ Route::group(['middleware' => ['web','auth']], function() {
         {
             return view('layouts.user.user');
         } else {
-            return view('layouts.admin.admin');
+            return view('layouts.admin.home');
         }
     });
 });
